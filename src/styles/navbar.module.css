@@ -1,4 +1,4 @@
-.darkModeToggle{
+.darkModeToggle {
     width: 60px;
     height: 30px;
     position: absolute;
@@ -11,7 +11,8 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.darkModeToggle::after{
+
+.darkModeToggle::after {
     content: "";
     width: 28px;
     height: 28px;
@@ -24,27 +25,32 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
-.darkModeToggle i{
+
+.darkModeToggle i {
     position: absolute;
     width: 40px;
     top: 8px;
     z-index: 100;
 }
-.darkModeToggle .sun{
+
+.darkModeToggle .sun {
     left: 6px;
     color: var(--sun-color);
     transition: 0.3s;
 }
-.darkModeToggle .moon{
+
+.darkModeToggle .moon {
     left: 40px;
     color: var(--moon-color);
     transition: 0.3s;
 }
-.darkModeToggleInput{
+
+.darkModeToggleInput {
     width: 0;
     height: 0;
     visibility: hidden;
 }
+
 /* .background{
     width: 100vw;
     height: 100vh;
@@ -59,10 +65,12 @@
     background: var(--toogle-color);
     /* linear-gradient(180deg, #777, #3a3a3a); */
 }
-.title{
+
+.title {
     color: var(--color-primary);
 }
-.menuLink{
+
+.menuLink {
     text-decoration: none;
     color: var(--text-color);
     text-align: center;
@@ -73,21 +81,25 @@
     line-height: normal;
     letter-spacing: 2.2px;
 }
-.offcanvas{
+
+.offcanvas {
     background: var(--background-color);
 }
-.buttonClose{
+
+.buttonClose {
     color: var(--text-color);
     font-size: 22px;
 }
-.offcanvasBody{
+
+.offcanvasBody {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     /* height: 80%; */
     padding: 0 0 50% 0;
 }
-.navbar{
+
+.navbar {
     background-color: var(--background-color);
-  color: var(--text-color);
+    color: var(--text-color);
 }
