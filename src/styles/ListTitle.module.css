@@ -1,0 +1,19 @@
+.ListTitle {
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-weight: bold;
+}
+.titleInput{
+    font-weight: bold;
+    width: 99%;
+    border-radius: 6px;
+    padding: 2px;
+    background-color: var(--input-background-color);
+    margin: 8px 2px 8px 2px;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    color: var(--text-color)
+}

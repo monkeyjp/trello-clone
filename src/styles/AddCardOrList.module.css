@@ -1,0 +1,8 @@
+.addCardButton {
+    width: 98%;
+    margin: 2px;
+    text-align: left;
+    color: var(--text-color);
+    background: var(--component-background-color);
+    border: none;
+}

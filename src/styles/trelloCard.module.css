@@ -1,0 +1,7 @@
+.cardItem{
+    background-color: var(--child-component-background-color);
+    margin: 8px 2px 16px 2px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow)
+}

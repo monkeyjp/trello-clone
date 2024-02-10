@@ -1,0 +1,59 @@
+.containerTrelloList{
+    bottom: 0;
+    left: 0;
+    margin-bottom: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 8px;
+    position: relative;
+    right: 0;
+    scrollbar-color: #fff6 #00000026;
+    scrollbar-width: auto;
+    top: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 6px;
+}
+.containerTrello {
+    display: flex;
+    overflow-y: auto;
+}
+.addCard {
+    width: 300px;
+    background-color: var(--component-background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 8px;
+    height: 100%;
+    padding: 0 6px;
+    align-self: flex-start;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    white-space: nowrap;
+}
+.container{
+    flex-grow: 1;
+    margin-top: 12px;
+    position: relative;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    margin-right: 0;
+    position: relative;
+}
+.trelloList {
+    padding: 0 6px;
+    align-self: flex-start;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    white-space: nowrap;
+}

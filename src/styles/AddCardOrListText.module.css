@@ -1,0 +1,21 @@
+.inputCardOrList{
+    background-color: var(--child-component-background-color);
+    width: 98%;
+    color: var(--text-color);
+    margin: 8px 2px 16px 2px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    max-height: 100px; /* Establece una altura máxima */
+    overflow-y: auto; 
+}
+.inputCardOrList::placeholder{
+    color: var(--text-color-placeholder)
+}
+.addButton{ /*This will move to another module when the button is componentized */
+    
+    background: var(--add-button-background);
+    padding: 4px;
+    color: var(--text-color);
+    margin-right: 8px;
+}
