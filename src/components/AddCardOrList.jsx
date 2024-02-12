@@ -20,7 +20,10 @@ export const AddCardOrList = ({type, listId}) => {
     return (
         <div>
             {!isActive && (
-                <button className={`${styles.addCardButton}`} onClick={toggleActiveInactive}>
+                <button 
+                    className={`${type === "card" ? styles.addCardButton : styles.addListButton}`} 
+                    onClick={toggleActiveInactive}
+                >
                     { type === "card" ? 
                         " + Add a card":
                         " + Add another list"

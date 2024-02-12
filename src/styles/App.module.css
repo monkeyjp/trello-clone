@@ -24,7 +24,7 @@
 }
 .addCard {
     width: 300px;
-    background-color: var(--component-background-color);
+    background-color: var(--component-addCard-background);
     border: 1px solid var(--border-color);
     border-radius: 6px;
     padding: 8px;

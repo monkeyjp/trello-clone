@@ -6,3 +6,11 @@
     background: var(--component-background-color);
     border: none;
 }
+.addListButton{
+    background-color: var(--component-addCard-background);
+    border: none;
+    width: 98%;
+    margin: 2px;
+    text-align: left;
+    color: var(--text-color);
+}

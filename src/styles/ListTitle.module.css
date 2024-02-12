@@ -1,6 +1,8 @@
 .ListTitle {
     display: flex;
     justify-content: space-between;
+    padding: 4px;
+    align-items: center;
 }
 .title{
     font-weight: bold;
